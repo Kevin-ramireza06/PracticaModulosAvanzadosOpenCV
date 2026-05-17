@@ -12,7 +12,7 @@ referencia_camara = cv2.VideoCapture(0)
 
 # Para trabajar con un video, ponemos la ruta, junto con la extensión de este como parámetro entre ''
 
-detector_ojos = cv2.CascadeClassifier('Hardcascades/haarcascade_eye.xml')
+detector_ojos = cv2.CascadeClassifier('HaarCascades/haarcascade_eye.xml')
 # Con la función .CascadeClassifier() integramos a nuestro proyecto un hardcascade, de parámetro le pasamos la ruta en
 # donde está ubicada el hardcascade que vamos a usar, en nuestro caso, uno que detecte los ojos.
 
